@@ -2,4 +2,6 @@ git add
 git commit
 git restore 暂存区覆盖工作区
 git rm --cached 移除文件（暂存区）
+git log
+git-log
 
