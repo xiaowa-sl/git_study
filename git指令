@@ -3,5 +3,30 @@ git commit
 git restore 暂存区覆盖工作区
 git rm --cached 移除文件（暂存区）
 git log
-git-log
+git log --oneline
+git reflog --oneline
+
+回退版本
+git reset --soft  保留其他文件
+git reset --hard  不保留除版本文件
+
+忽略文件
+.gitignore
+  node_modules
+  dist
+  .vscode
+  *.pem
+  *.cer
+  *.log
+
+分支
+git branch 名字   创建
+git checkout 名字 切换
+
+合并
+git merge 名字
+git branch -d 名字 删除指针
+
+
+
 
