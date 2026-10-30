@@ -5,7 +5,7 @@ git rm --cached 移除文件（暂存区）
 git log
 git log --oneline
 git reflog --oneline
-
+git ls-files 查看暂存区文件
 回退版本
 git reset --soft  保留其他文件
 git reset --hard  不保留除版本文件
@@ -27,5 +27,10 @@ git checkout 名字 切换
 git merge 名字
 git branch -d 名字 删除指针
 
-
-
+github
+git remote add 别名 GitHub地址
+git remote remove 别名
+git push -u 别名 master
+git clone 远程仓库地址
+git pull 别名 master
+git pull --rebase 别名 master 强制拉取合并
